@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактирование профиля</title>
+</head>
+<body>
+    <h2>Редактирование профиля</h2>
+    <form action="process_edit_profile.php" method="post">
+        <label for="username">Имя:</label><br>
+        <input type="text" id="username" name="username" value="Текущее имя пользователя"><br>
+
+        <label for="email">Электронная почта:</label><br>
+        <input type="email" id="email" name="email" value="Текущая электронная почта"><br>
+
+        <label for="password">Новый пароль:</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="confirm_password">Повторите пароль:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password"><br>
+
+        <input type="submit" value="Сохранить изменения">
+    </form>
+</body>
+</html>
